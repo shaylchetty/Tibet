@@ -1,5 +1,5 @@
 # Virtual Museum
-  ![VR-museum](VR-museum_screenshots/Admin_Login.png)
+  ![VR-museum](VR_museum_screenshots/showroomdark.png)
 
 Welcome to the Virtual Museum! Explore historical artifacts and exhibits from the comfort of your home.
 
@@ -30,7 +30,12 @@ The Virtual Museum is an interactive platform that allows users to explore histo
 - **3D Visualization**: [Add 3D visualization library used]
 - **Styling**: CSS (or any CSS framework you used)
 - **Audio Integration**: [Add audio library used]
-
+### Home Page
+![VR-museum](VR_museum_screenshots/homepage.png)
+### Showroom light theme
+![VR-museum](VR_museum_screenshots/showroomlight.png)
+### One of the language feature Amharic
+![VR-museum](VR_museum_screenshots/showroomamharic.png)
 ## Getting Started
 
 To get a local copy up and running, follow these steps:
@@ -44,13 +49,13 @@ To get a local copy up and running, follow these steps:
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/yourusername/virtual-museum.git
+    git clone https://github.com/st-miki/VR-Museum.git
     ```
 
 2. Navigate to the project directory:
 
     ```sh
-    cd virtual-museum
+    cd VR-Museum
     ```
 
 3. Install the dependencies:
