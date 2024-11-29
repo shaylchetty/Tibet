@@ -15,7 +15,7 @@ const ShowRoom = () => {
   return (
     <div className={`show-room ${theme}`}>
      <div style={{display:'flex', justifyContent:'space-between', padding:'20px', paddingBottom:'0px'}}>
-        <h1 style={{fontFamily:'"Poppins", san-serif', marginLeft:'140px'}} >Lucy: The Dawn of Humanity</h1>
+        <h1 style={{fontFamily:'"Times", san-serif', marginLeft:'140px'}} >Tibetan Buddhism: The Buddha</h1>
         <ThemeToggle onToggle={toggleTheme} backgroundColor={theme === 'light' ? '#ffffff' : '#1f1f1f'} color={theme === 'light' ? '#000000' : '#ffffff'} theme={theme} themeName={theme === 'light' ? 'Dark' : 'Light'} />
      </div>
       <div className="show-room-container">

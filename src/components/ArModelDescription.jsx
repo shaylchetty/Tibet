@@ -56,16 +56,16 @@ const ArModelDescription = () => {
 
   return (
     <div className="ar-model-description">
-      <Button onClick={handlePlay} style={{ marginRight: '20px', fontFamily: '"Poppins", san-serif' }}>
+      <Button onClick={handlePlay} style={{ marginRight: '20px', fontFamily: '"Times", san-serif' }}>
         {isPlaying ? <PauseCircleOutlined /> : <PlayCircleOutlined />}
-        {isPlaying ? 'Pause Audio' : 'Play Audio'}
+        {isPlaying ? 'Restart Audio' : 'Play Audio'}
       </Button>
-      <Select defaultValue="en" style={{ width: 120, fontFamily: '"Poppins", san-serif' }} onChange={handleLanguageChange}>
+      <Select defaultValue="en" style={{ width: 120, fontFamily: '"Times", san-serif' }} onChange={handleLanguageChange}>
         <Option value="en"><GlobalOutlined /> English</Option>
-        <Option value="am"><GlobalOutlined /> Amharic</Option>
+        {/* <Option value="am"><GlobalOutlined /> Amharic</Option>
         <Option value="om"><GlobalOutlined /> Oromo</Option>
-        <Option value="ti"><GlobalOutlined /> Tigregna</Option>
-        <Option value="so"><GlobalOutlined /> Somali</Option>
+        <Option value="ti"><GlobalOutlined /> Tigregna</Option> */}
+        <Option value="so"><GlobalOutlined /> Spanish</Option>
       </Select>
       <div className="text-container">
         <Text

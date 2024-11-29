@@ -8,7 +8,7 @@ const ThemeToggle = ({ onToggle, backgroundColor, color, theme, themeName }) => 
   
   return (
     <Space>
-      <Button type="primary" onClick={onToggle} style={{ fontFamily: '"Poppins", san-serif', backgroundColor: backgroundColor, color: color }}>
+      <Button type="primary" onClick={onToggle} style={{ fontFamily: '"Times", san-serif', backgroundColor: backgroundColor, color: color }}>
         {icon}
         {oppositeThemeName} Theme
       </Button>
