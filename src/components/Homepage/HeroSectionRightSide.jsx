@@ -3,9 +3,9 @@ import { Input } from 'antd';
 
 
 import HeroImage from '../../assets/Images/HeroImage.png';
-import HeroImage3 from '../../assets/Images/HeroImage3.jpg';
-import HeroImage2 from '../../assets/Images/HeroImage2.jpg';
-import HeroImage1 from '../../assets/Images/HeroImage1.jpg';
+import HeroImage3 from '../../assets/Images/HeroImage3.png';
+import HeroImage2 from '../../assets/Images/HeroImage2.png';
+import HeroImage1 from '../../assets/Images/HeroImage1.png';
 import VrGoggles from '../../assets/Images/vrgoggles.webp';
 
 

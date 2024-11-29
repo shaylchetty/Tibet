@@ -5,7 +5,7 @@ import ThemeToggle from '../context/ThemeToggle';
 import './Styles/ShowRoom.css'; // Import CSS file for styling
 
 const ShowRoom = () => {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('dark');
 
   const toggleTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
